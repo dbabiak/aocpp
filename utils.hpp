@@ -43,4 +43,11 @@ vector<string> read_file(const string& path) {
     }
     return lines;
 }
+
+int pow_n(int base, int exp) {
+    int acc = 1;
+    for (int i = 0; i < exp; i++)
+        acc *= base;
+    return acc;
+}
 #endif //AOCPP_UTILS_HPP

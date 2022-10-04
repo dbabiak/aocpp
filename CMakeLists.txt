@@ -3,4 +3,11 @@ project(aocpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(aocpp main.cpp utils.hpp d01.hpp d02.hpp)
+add_executable(
+        aocpp
+        main.cpp
+        utils.hpp
+        d01.hpp
+        d02.hpp
+        d03.hpp
+)
