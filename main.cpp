@@ -1,6 +1,6 @@
-#include "d01.hpp"
+#include "d02.hpp"
 
 int main() {
-    d01();
+    d02();
     return 0;
 }

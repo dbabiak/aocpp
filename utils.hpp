@@ -35,11 +35,10 @@ vector<string> split(const string &s, char delim) {
 }
 
 vector<string> read_file(const string& path) {
-    std::ifstream file;
-    file.open(path);
+    std::ifstream file(path);
     string line;
     vector<string> lines;
-    while (file >> line) {
+    while (std::getline(file, line)) {
         lines.push_back(line);
     }
     return lines;
