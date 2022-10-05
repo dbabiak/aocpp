@@ -1,7 +1,7 @@
 #ifndef AOCPP_D01
 #define AOCPP_D01
 
-#include "utils.hpp"
+#include "utils.h"
 
 typedef struct {
     int x, y;

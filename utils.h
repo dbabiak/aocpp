@@ -1,5 +1,5 @@
-#ifndef AOCPP_UTILS_HPP
-#define AOCPP_UTILS_HPP
+#ifndef AOCPP_UTILS_H
+#define AOCPP_UTILS_H
 
 #include <iostream>
 #include <sstream>
@@ -50,4 +50,4 @@ int pow_n(int base, int exp) {
         acc *= base;
     return acc;
 }
-#endif //AOCPP_UTILS_HPP
+#endif //AOCPP_UTILS_H

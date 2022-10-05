@@ -1,7 +1,7 @@
 #ifndef AOCPP_D02
 #define AOCPP_D02
 
-#include "utils.hpp"
+#include "utils.h"
 
 const char *d02_lines = R"D02(1-3 a: abcde
 1-3 b: cdefg

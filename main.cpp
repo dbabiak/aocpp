@@ -1,4 +1,4 @@
-#include "d03.hpp"
+#include "d03.h"
 
 int main() {
     d03();
