@@ -8,6 +8,6 @@
 #include "utils.h"
 
 void do_stuff() {
-    cout << "ok" << '\n';
+    cout << "q_q" << '\n';
 }
 #endif //AOCPP_DEMOS_H

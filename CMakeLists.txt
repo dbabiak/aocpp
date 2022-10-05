@@ -5,9 +5,9 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(
         aocpp
-        main.cpp
-        utils.h
-        d01.h
-        d02.h
-        d03.h
-        demos.h)
+        src/main.cpp
+        src/utils.h
+        src/d01.h
+        src/d02.h
+        src/d03.h
+        src/demos.h)
