@@ -1,6 +1,6 @@
-#include "demos.h"
+#include "include/d01.h"
 
 int main() {
-    do_stuff();
+    d01();
     return 0;
 }

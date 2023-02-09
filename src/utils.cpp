@@ -1,19 +1,4 @@
-#ifndef AOCPP_UTILS_H
-#define AOCPP_UTILS_H
-
-#include <iostream>
-#include <sstream>
-#include <vector>
-#include <fstream>
-using namespace std;
-
-//const char *lines = R"EOF(1721
-//979
-//366
-//299
-//675
-//1456
-//)EOF";
+#include "include/utils.h"
 
 vector<int> parse(const vector<string> &xs) {
     vector<int> ys;
@@ -50,4 +35,3 @@ int pow_n(int base, int exp) {
         acc *= base;
     return acc;
 }
-#endif //AOCPP_UTILS_H
